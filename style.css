@@ -1,1 +1,55 @@
-*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: brown;
+}
+.icon {
+  width: auto;
+  height: 70px;
+}
+
+.list {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li:first-child {
+  margin-right: auto;
+}
+.nav-item {
+  margin: 30px;
+  font-size: 16px;
+}
+
+a {
+  color: #fafafa;
+}
+
+main {
+  text-align: center;
+}
+.main-visual {
+  height: 650px;
+  background-image: url("img/mv.png");
+  background-size: cover;
+  color: #fafafa;
+}
+.mv-content {
+  padding-top: 200px;
+}
+.mv-title {
+  font-size: 64px;
+}
+.mv-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
